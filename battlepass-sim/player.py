@@ -40,9 +40,10 @@ class Player:
         games_played_func = self.persona.details["games_per_day"]["distribution"]
         games_played_params = self.persona.details["games_per_day"]["params"]
 
+        # NOTE: It should be possible to play 0 games.
         number_games_played = games_played_func(*games_played_params)
 
-        for game_num in range(int(number_games_played)):
+        for game_num in range(0, int(number_games_played)):
             self._play_game(date, self.persona.details["win_rate"])
 
     def _play_game(self, date: datetime, win_rate_details: Dict[str, Union[str, List[float]]]) -> None:

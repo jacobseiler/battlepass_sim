@@ -1,0 +1,17 @@
+* Different personas
+* Player profile
+    * Win rate
+    * Games per week
+    * Cavern crawl compliance fraction
+    * Contracts compliance fraction
+    * Wagering appetite
+    * Tip trading appetite?
+
+
+* Achievements
+* Cavern crawl
+* Portals
+* Wagering
+* Contracts
+* Guilds
+* Labyrinth
